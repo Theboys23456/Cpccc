@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, jsonify
 import requests
 
-API_ID = os.environ.get("API_ID", "21567814)
+API_ID = os.environ.get("API_ID", "21567814")
 API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8078418472:AAGyxX_RxjKS-4KgYBV1pAaGMU7kwh8JZi8")
 
